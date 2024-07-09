@@ -1,0 +1,244 @@
+.singer {
+    width: 100%;
+}
+.singer-header {
+    width: 100%;
+    position: relative;
+}
+.singer-img {
+    // z-index: 101;
+
+    width: 100%;
+
+    opacity: 0.1;
+    height: 300px;
+}
+.singer-gradien {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, var(--alpha-layout-bg), transparent);
+    padding: 0 59px;
+}
+.singer-info {
+    color: var(--text-color);
+    width: 100%;
+    // height: 100%;
+    display: flex;
+    // align-items: center;
+    padding-bottom: 24px;
+    position: absolute;
+    bottom: 0;
+    gap: 30px;
+}
+.singer-infoImage {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.singer-infomation {
+    display: flex;
+    flex-direction: column;
+}
+.singer-infoName {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.singer-iconPlay {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--borderleft-color);
+    border-radius: 50%;
+    margin-left: 20px;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+.singer-name {
+    font-size: 6rem;
+    font-weight: 600;
+}
+.singer-infoTotalFollow {
+    display: flex;
+    align-items: center;
+}
+.singer-ylike {
+    font-size: 1.4rem;
+    margin-right: 24px;
+}
+.singer-infoBtn {
+    display: flex;
+    gap: 6px;
+    font-size: 1.2rem;
+    padding: 6px 19px;
+    // margin: 15px 0 20px 0;
+    font-weight: 400;
+    background-color: var(--alpha-bg);
+    border: 1px solid var(--border-primary);
+    border-radius: 999px;
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+.singer-care {
+    font-size: 1.2rem;
+}
+.singer-content {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    padding: 0 59px;
+    color: var(--text-color);
+    gap: 2.8rem;
+}
+.singer-contentSong {
+    width: 35%;
+}
+.singer-contentHeading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+.singer-contentInfo {
+    background-color: #312939;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+}
+.singer-contentImag {
+    width: 151px;
+    height: 151px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.singer-contentDetails {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0;
+    margin-left: 16px;
+}
+.singer-contentTextType {
+    color: var(--secondary-text-color);
+}
+.singer-contentTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 12px 0 6px 0;
+}
+.singer-contentArtistsNames {
+    margin-bottom: 12px;
+    color: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.singer-contentReleaseDate {
+    color: var(--secondary-text-color);
+}
+.singerContentListSong {
+    width: 65%;
+}
+.singerContentNoListSong {
+    width: 100%;
+}
+.singer-contentheader {
+    display: flex;
+
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.singer-contentheading {
+    font-size: 2rem;
+    line-height: normal;
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 0 12px;
+}
+.singer-contentdiscoverBtn {
+    font-size: 1.2rem;
+    color: var(--text-color2);
+    display: flex;
+    align-items: center;
+}
+.sum-btn {
+    font-weight: 600;
+}
+.singer-contenticon {
+    color: var(--text-color2);
+    margin-left: 6px;
+}
+.singer-contentlistItem {
+    width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.singer-contentItem {
+    width: 50%;
+}
+.singer-Artist {
+    padding: 0 59px;
+    margin-top: 50px;
+    color: var(--text-color);
+}
+.singer-listOA {
+    display: flex;
+    gap: 2.8rem;
+}
+.singer-artistInfomation {
+    padding: 0 59px;
+    margin-top: 50px;
+    color: var(--text-color2);
+    width: 100%;
+}
+.singer-artistInfoName {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+.singer-artistInfoList {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.singer-artistInfoImg {
+    width: 45%;
+    height: 304px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.singer-artistInfocare {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.singer-biography {
+    font-size: 1.4rem;
+    margin-bottom: 48px;
+}
+.singer-infoYoucare {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.singer-numberYouCare {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.singer-youCare {
+    font-size: 1.4rem;
+}

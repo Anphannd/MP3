@@ -1,0 +1,73 @@
+.silebarRight-list {
+    height: 100%;
+    width: 100%;
+    background-color: #170f23;
+    color: var(--text-color);
+    box-shadow: var(--box-shadow-queue);
+    overflow: hidden;
+}
+.silebarRight-header {
+    height: 70px;
+    padding: 14px 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header-btn {
+    display: flex;
+    flex: 1;
+    border-radius: 999px;
+    background-color: var(--color-background1);
+    padding: 3px;
+    // gap: 6px;
+}
+.songplaylist-btn,
+.songheardrecently-btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 999px;
+    width: 50%;
+    color: var(--text-color);
+    cursor: pointer;
+}
+.listsong {
+    background-color: #ffffff4d;
+}
+.header-icon {
+    display: flex;
+    gap: 8px;
+}
+.icon-btn {
+    padding: 8px;
+    background-color: var(--color-background1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.silebarRight-body {
+    padding: 0 8px;
+}
+.silebarRight-body-more {
+    padding: 15px 8px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.silebarRight-next {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.silebarRight-infolist {
+    font-size: 1.4rem;
+}
+.silebarRight-playlist {
+    color: #feffff99;
+}
+.silebarRight-name {
+    margin-left: 5px;
+    color: #c273ed;
+}
+.playList-song {
+    display: flex;
+    flex-direction: column;
+}

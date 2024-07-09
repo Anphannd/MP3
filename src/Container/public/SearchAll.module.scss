@@ -1,0 +1,118 @@
+.searchAll {
+    padding-left: 59px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    color: var(--text-color);
+}
+.searchAll-outstanding {
+    display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    flex-direction: column;
+}
+.searchAll-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.searchAll-list {
+    display: flex;
+    gap: 2.8rem;
+}
+.searchAll-Info {
+    display: flex;
+    flex: 1;
+    background-color: #feffff0d;
+    padding: 10px;
+    border-radius: 6px;
+    align-items: center;
+    gap: 12px;
+
+    &:hover {
+        background-color: #2f2739;
+        cursor: pointer;
+    }
+}
+.searchAll-InfoRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+    gap: 6px;
+}
+.searchAll-photoImg {
+    overflow: hidden;
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.searchAll-imgs {
+    transition: transform 0.9s ease, filter 0.9s ease;
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        filter: brightness(0.7);
+    }
+}
+.searchAll-totalFollow,
+.searchAll-artist {
+    font-size: 1.2rem;
+    color: var(--text-color2);
+}
+.searchAll-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.searchAll-item {
+    flex: 1;
+    background-color: #feffff0d;
+}
+.searchAll-songs {
+    margin-top: 50px;
+}
+.songs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchAll-discoverBtn {
+    display: flex;
+}
+
+.sum-btn {
+    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    color: var(--text-color2);
+}
+.searchAll-icon {
+    color: var(--text-color2);
+    margin-left: 6px;
+}
+.songs-list {
+    width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.songs-Info {
+    width: 50%;
+}
+.playlist-list {
+    display: flex;
+    width: 100%;
+    // gap: 28px;
+}
+// .playlist-Info {
+//     display: flex;
+//     width: 100%;
+// }
+.playlist-listOA {
+    display: flex;
+    width: 100%;
+    gap: 28px;
+}

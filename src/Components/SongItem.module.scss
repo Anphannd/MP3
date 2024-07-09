@@ -1,0 +1,84 @@
+.songItem {
+    width: 100%;
+    display: flex;
+
+    padding: 10px;
+
+    &:hover {
+        background-color: #2f2739;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+.activeOder {
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    // gap: 4px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    &:hover {
+        background-color: #ffffff80;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+.oder {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 15px;
+    color: transparent;
+}
+.one {
+    -webkit-text-stroke: 1px #4a90e2;
+}
+.two {
+    -webkit-text-stroke: 1px #50e3c2;
+}
+.three {
+    -webkit-text-stroke: 1px #e35050;
+}
+.percent {
+    font-size: 1.6rem;
+}
+.songItem-row {
+}
+.songItemImgs {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.songItemSm {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.songItemxl {
+    width: 84px;
+    height: 84px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.songItem-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex: 1;
+}
+.songItem-title {
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+.songItem-artistsNames {
+    font-size: 1.2rem;
+    color: #ffffff80;
+}
+.songItem-releaseDate {
+    font-size: 1.2rem;
+    color: #ffffff80;
+}

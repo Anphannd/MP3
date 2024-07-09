@@ -1,0 +1,22 @@
+.SearchPlaylist {
+    display: flex;
+    flex-direction: column;
+    padding-left: 47px;
+    width: 100%;
+}
+.SearchPlaylist-heading {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+    padding: 0 12px;
+}
+.SearchPlaylist-list {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    // gap: 2.4rem;
+    overflow: hidden;
+    width: 100%;
+}
+.SearchPlaylist-item {
+}

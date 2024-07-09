@@ -1,0 +1,81 @@
+.cover-xxl {
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: column;
+}
+.silebar-left {
+    width: 240px;
+    flex: none; // giữ nguyên chiều rộng không thay đổi
+    min-height: 100vh;
+}
+.silebar-right {
+    width: 330px;
+    flex: none;
+    // animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    // opacity: 0;
+}
+// @keyframes slide-left {
+//     0% {
+//         -webkit-transform: translateX(500px);
+//         transform: translateX(500px);
+//     }
+//     100% {
+//         -webkit-transform: translateX(100px);
+//         transform: translateX(100px);
+//     }
+// }
+.home-login {
+    width: 100%;
+    background-color: #170f23;
+    position: relative;
+}
+.check-loading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+.header {
+    position: fixed;
+    display: flex;
+    left: 240px;
+    right: 0;
+    align-items: center;
+    height: 70px;
+    padding: 0 59px;
+
+    z-index: 100;
+
+    // width: 100%;
+}
+.headerSinger {
+    background-color: transparent;
+}
+.headerNoSinger {
+    background-color: #170f23;
+}
+.silebar-right {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07);
+    height: 100vh;
+
+    position: absolute;
+    right: 0;
+    z-index: 999;
+}
+.player {
+    height: 90px;
+    flex: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: #130c1c;
+}

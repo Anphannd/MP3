@@ -1,0 +1,58 @@
+.NewRelease {
+    margin-top: 48px;
+    padding: 0 59px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.NewRelease-header {
+    display: flex;
+
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.NewRelease-heading {
+    font-size: 20px;
+    line-height: normal;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.NewRelease-discoverBtn {
+    font-size: 1.2rem;
+    color: var(--text-color2);
+    display: flex;
+    align-items: center;
+}
+.sum-btn {
+    font-weight: 600;
+}
+.NewRelease-icon {
+    color: var(--text-color2);
+    margin-left: 6px;
+}
+.NewRelease-btn {
+    margin-bottom: 16px;
+}
+.btn {
+    font-size: 1.2rem;
+    font-weight: 400;
+    // border-color: var(--borderleft-color);
+    // background-color: var(--borderleft-color);
+    color: var(--text-color);
+    border: 1px solid #ffffff1a;
+    margin-right: 15px;
+    padding: 4px 24px;
+    border-radius: 100px;
+}
+.NewRelease-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.NewRelease-item {
+    width: 33.3333%;
+    padding: 0 10px;
+}
+.active {
+    background-color: var(--borderleft-color);
+}

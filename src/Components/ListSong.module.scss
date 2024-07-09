@@ -1,0 +1,42 @@
+.play-List {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.listItem {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ffffff0d;
+    color: var(--text-color);
+    opacity: 0.5;
+}
+.song-icons {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 6px;
+}
+.album-time {
+    width: 50%;
+    display: flex;
+}
+.album {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+.media-song {
+}
+.sumSong-time {
+    font-size: 1.3rem;
+    display: flex;
+    color: var(--text-color);
+    margin: 16px 0;
+    align-items: center;
+}
+.icon-dot {
+    margin: 0 10px;
+}

@@ -1,0 +1,154 @@
+.song {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.imageSong {
+    height: 64px;
+    width: 64px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: var(--text-color);
+}
+.nameSong {
+    font-size: 1.4rem;
+}
+.singerSong {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 2px;
+    text-align: left;
+}
+.icons {
+    display: flex;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+.iconsItem {
+    padding: 8px;
+    margin: 0 2px;
+
+    &:hover {
+        background-color: #333;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+.active {
+    color: #c273ed;
+}
+.actives {
+    color: red;
+}
+.iconsItem-xl:hover {
+    color: var(--borderleft-color);
+}
+
+.play {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.iconsList {
+    font-weight: 300;
+    font-size: 1.6rem;
+    display: flex;
+    gap: 3.2rem;
+    color: var(--text-color);
+}
+.progress-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.time-start,
+.time-end {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+.time-start {
+    opacity: 0.6;
+}
+.progress {
+    -webkit-appearance: none;
+    background: linear-gradient(to right, #fff 0%, #fff var(--progress), #5a5560 var(--progress), #5a5560 100%);
+    width: 75%;
+    border-radius: 6px;
+    height: 4px;
+    background-color: #5a5560;
+    &:hover::-webkit-slider-thumb {
+        opacity: 1;
+    }
+    &:hover {
+        height: 6px;
+        cursor: pointer;
+    }
+}
+.progress::-webkit-slider-thumb {
+    /* css con tro */
+
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 12px;
+    opacity: 0;
+    height: 12px;
+    background-color: var(--text-color);
+    cursor: pointer;
+    transition: opacity 0.5s;
+    &:hover {
+        opacity: 1;
+    }
+}
+.progress-volume {
+    width: 70px;
+    background: linear-gradient(to right, #fff 0%, #fff var(--volume), #5a5560 var(--volume), #5a5560 100%);
+}
+// .progress::-webkit-slider-runnable-track {
+//     -webkit-appearance: none;
+//     background: linear-gradient(to right, #fff 0%, #fff var(--progress), #5a5560 var(--progress), #5a5560 100%);
+// }
+.tools {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.tools-icons {
+    display: flex;
+    color: var(--text-color);
+    align-items: center;
+}
+.border-right {
+    height: 33px;
+    width: 1px;
+    background-color: #ffffff1a;
+    margin: 0 20px;
+}
+.listSong-btn {
+    display: flex;
+    align-items: center;
+    height: 30px;
+
+    border-radius: 4px;
+    padding: 5px;
+
+    background-color: #ffffff1a;
+    border: 1px solid transparent;
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}

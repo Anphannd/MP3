@@ -1,0 +1,110 @@
+.listItem {
+    padding: 20px 59px 0 59px;
+    display: flex;
+    width: 100%;
+    gap: 32px;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.itemLeft {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    // position: relative;
+    text-align: center;
+    font-size: 1.2rem;
+    gap: 6px;
+    color: var(--text-color);
+    height: 100%;
+    border-radius: 8px;
+}
+.images-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.images-playlist:hover + .iconPlay-btn {
+    display: flex;
+}
+.images-playlist {
+    border-radius: 8px;
+    box-shadow: 1px 3px 3px #333;
+
+    object-fit: cover;
+    position: relative;
+    transition: transform 0.9s ease, filter 0.9s ease;
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        filter: brightness(0.7);
+    }
+}
+.iconPlay-btn {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.iconAudio-btn {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.songName {
+    font-size: 2rem;
+
+    font-weight: 600;
+}
+
+.dayUpdate,
+.singerName,
+.userLike {
+    opacity: 0.5;
+}
+.play-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+.play-btn {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    background-color: var(--borderleft-color);
+    padding: 9px 24px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 16px;
+}
+.iconsItem {
+    padding: 8px;
+    margin: 0 2px;
+    font-size: 1.6rem;
+    &:hover {
+        background-color: #333;
+        border-radius: 50%;
+    }
+}
+.itemRight {
+    flex: auto;
+}
+.sortDescription {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}

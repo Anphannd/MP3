@@ -1,0 +1,40 @@
+.silebar-left {
+    background-color: #231b2e;
+    min-height: 100vh;
+}
+
+.header-logo {
+    padding: 16px 0 16px 28px;
+}
+
+.logo {
+    height: 40px;
+    width: 120px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.menu-item {
+    display: flex;
+    padding: 12px 21px;
+    text-decoration: none;
+    align-items: center;
+    color: var(--navigation-text);
+    &:hover {
+        color: var(--text-color);
+    }
+    &.active {
+        color: var(--text-color);
+        background-color: var(--background-text);
+        border-left: 3px solid var(--borderleft-color);
+    }
+}
+.menu-icon {
+    // font-size: 2.4rem;
+}
+.menu-title {
+    margin-left: 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}

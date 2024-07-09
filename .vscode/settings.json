@@ -1,0 +1,18 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "tailwindCSS.emmetCompletions": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html",
+        "javascript": "javascript",
+        "javascriptreact": "javascript",
+        "typescript": "javascript",
+        "typescriptreact": "javascript"
+    },
+    "tailwindCSS.experimental.classRegex": ["tw`([^`]*)", "tw=\"([^\"]*)", "tw={\"([^\"}]*)", "tw\\.\\w+`([^`]*)"],
+    "headwind.runOnSave": true,
+    "headwind.sortTailwindClasses": true
+}

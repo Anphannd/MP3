@@ -1,0 +1,127 @@
+.section {
+    margin-top: 42px;
+    padding: 0 47px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.section-header {
+    display: flex;
+
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.section-heading {
+    font-size: 20px;
+    line-height: normal;
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 0 12px;
+}
+.section-discoverBtn {
+    font-size: 1.2rem;
+    color: var(--text-color2);
+    display: flex;
+    align-items: center;
+}
+.sum-btn {
+    font-weight: 600;
+}
+.section-icon {
+    color: var(--text-color2);
+    margin-left: 6px;
+}
+.section-list {
+    display: flex;
+
+    overflow: hidden;
+    width: 100%;
+}
+.section-items {
+    font-size: 1.4rem;
+    color: var(--text-color2);
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    gap: 18px;
+    padding: 6px 12px;
+}
+.section-photoImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
+// .section-image:hover ~ .iconPlay-btn {
+//     display: flex;
+// }
+.section-image {
+    height: auto;
+
+    border-radius: 8px;
+}
+.actions-one {
+    transition: transform 0.9s ease;
+    transform: scale(1.1);
+}
+.actions-two {
+    transition: transform 0.9s ease;
+    transform: scale(1);
+}
+.icons-list {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.iconEllips-btn,
+.iconHeart-btn {
+    padding: 5px;
+    color: var(--text-color);
+    &:hover {
+        background-color: var(--text-color2);
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+.iconPlay-btn {
+    // position: absolute;
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // display: none;
+}
+.iconAudio-btn {
+    // position: absolute;
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.sectionTitle-list {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 600;
+}

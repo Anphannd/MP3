@@ -1,0 +1,45 @@
+.header-xxl {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-l {
+    display: flex;
+    width: 100%;
+}
+.navigation-arrows > * + * {
+    // 2 thằng con cách nhau
+    margin-left: 14px;
+}
+.navigation-arrows {
+    // color: #57515f;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.Search {
+    width: 100%;
+    max-width: 440px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    margin-left: 14px;
+    border-radius: 20px;
+}
+.action {
+    color: var(--text-color);
+}
+// .navigation-left {
+//     color: var(--text-color);
+// }
+
+.navigation {
+    color: #57515f;
+}
+.active {
+    color: var(--text-color);
+}

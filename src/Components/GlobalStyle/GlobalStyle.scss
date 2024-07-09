@@ -1,0 +1,32 @@
+@import 'normalize.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #ffffff;
+    --background-text: #393243;
+    --borderleft-color: #9b4de0;
+    --color-main-four: #ffffff0d;
+    --color-background1: #ffffff1a;
+    --box-shadow-queue: 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 6px rgba(0, 0, 0, 0.3),
+        inset 0 1px 1px rgba(25, 255, 255, 0.05);
+    --navigation-text: #dadada;
+    --padding-section: 59px;
+    --text-color2: #ffffff80;
+    --alpha-bg: #ffffff1a;
+    --border-primary: hsl(0deg 0% 100% / 10%);
+    --alpha-layout-bg: rgba(41, 21, 71, 0.8);
+    --layout-background: #291547cc;
+    --secondary-text-color: rgba(254, 255, 255, 0.6);
+}
+html {
+    font-size: 62.5%;
+}
+body {
+}
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,33 @@
+.search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: var(--text-color);
+    position: relative;
+}
+.search-btn {
+    padding: 6px;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}
+.search-close {
+    position: absolute;
+    right: 16px;
+    opacity: 0.5;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.search-input {
+    font-size: 1.4rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--text-color);
+    padding: 5px 0 5px 5px;
+    height: 30px;
+    color: var(--navigation-text);
+}
