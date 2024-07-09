@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MP3/static/css/main.f4af9145.css",
-    "main.js": "/MP3/static/js/main.eab66bf9.js",
-    "static/js/453.bea66239.chunk.js": "/MP3/static/js/453.bea66239.chunk.js",
-    "static/media/view bien 6.jpg": "/MP3/static/media/view bien 6.8c940aa36981ed5e0cb6.jpg",
-    "static/media/logo.svg": "/MP3/static/media/logo.606079e56de6d0a661ff4e83d2451325.svg",
-    "static/media/fraction.cjs": "/MP3/static/media/fraction.7992481f3d8339b77604.cjs",
-    "index.html": "/MP3/index.html",
-    "static/media/index.cjs": "/MP3/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.f4af9145.css.map": "/MP3/static/css/main.f4af9145.css.map",
-    "main.eab66bf9.js.map": "/MP3/static/js/main.eab66bf9.js.map",
-    "453.bea66239.chunk.js.map": "/MP3/static/js/453.bea66239.chunk.js.map"
+    "main.css": "/MP3-zingclone/static/css/main.f4af9145.css",
+    "main.js": "/MP3-zingclone/static/js/main.1689d610.js",
+    "static/js/453.bea66239.chunk.js": "/MP3-zingclone/static/js/453.bea66239.chunk.js",
+    "static/media/view bien 6.jpg": "/MP3-zingclone/static/media/view bien 6.8c940aa36981ed5e0cb6.jpg",
+    "static/media/logo.svg": "/MP3-zingclone/static/media/logo.606079e56de6d0a661ff4e83d2451325.svg",
+    "static/media/fraction.cjs": "/MP3-zingclone/static/media/fraction.7992481f3d8339b77604.cjs",
+    "index.html": "/MP3-zingclone/index.html",
+    "static/media/index.cjs": "/MP3-zingclone/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.f4af9145.css.map": "/MP3-zingclone/static/css/main.f4af9145.css.map",
+    "main.1689d610.js.map": "/MP3-zingclone/static/js/main.1689d610.js.map",
+    "453.bea66239.chunk.js.map": "/MP3-zingclone/static/js/453.bea66239.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4af9145.css",
-    "static/js/main.eab66bf9.js"
+    "static/js/main.1689d610.js"
   ]
 }
