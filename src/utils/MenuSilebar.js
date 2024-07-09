@@ -37,7 +37,7 @@ const SearchMenu = [
         title: 'PLAYLIST/ALBUM ',
     },
     {
-        path: 'radio',
+        path: '',
         title: 'NGHỆ SĨ/OA ',
     },
 ];

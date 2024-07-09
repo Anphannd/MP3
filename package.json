@@ -2,6 +2,7 @@
     "name": "project",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://anphannd.github.io/MP3-zingclone/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
@@ -12,6 +13,7 @@
         "chart.js": "^4.4.3",
         "classnames": "^2.5.1",
         "comment": "^0.0.2",
+        "gh-pages": "^6.1.1",
         "lodash": "^4.17.21",
         "moment": "^2.30.1",
         "normalize.css": "^8.0.1",
@@ -35,7 +37,9 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
