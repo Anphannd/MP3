@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import * as actions from '../../Store/action';
+import * as actions from '../Store/action';
 import { useDispatch } from 'react-redux';
-import { ListSong } from '../../Components';
+import { ListSong } from '../Components';
 import classNames from 'classnames/bind';
 import styles from './SearchSong.module.scss';
+
 const cx = classNames.bind(styles);
+
 const SearchSong = () => {
     const { searchData } = useSelector((state) => state.music);
     const dispatch = useDispatch();

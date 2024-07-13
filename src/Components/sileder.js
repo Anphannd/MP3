@@ -21,13 +21,6 @@ const Sileder = () => {
     const [max, setMax] = useState(2);
     const [isAuto, setIsAuto] = useState(true);
 
-    function handleHover() {
-        setIshover(true);
-    }
-    function handleLeave() {
-        setIshover(false);
-    }
-
     useEffect(() => {
         if (isAuto) {
             intervalId = setInterval(() => {
@@ -38,11 +31,7 @@ const Sileder = () => {
             intervalId && clearInterval(intervalId);
         };
     }, [min, max, isAuto]);
-    // useEffect(() => {
-    //     if (curIndex !== 0) {
-    //         intervalId && clearInterval(intervalId);
-    //     }
-    // }, [curIndex]);
+
     function handleAnimationBaner(step) {
         const photoSile = document.getElementsByClassName(cx('photo-banner'));
         const list = getArrSlider(min, max, photoSile.length - 1);
@@ -92,6 +81,13 @@ const Sileder = () => {
         } else {
             dispatch(actions.setPlayList(null));
         }
+    }
+
+    function handleHover() {
+        setIshover(true);
+    }
+    function handleLeave() {
+        setIshover(false);
     }
 
     const handleClick = useCallback(

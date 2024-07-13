@@ -10,8 +10,10 @@ import { SongItem } from './';
 import _ from 'lodash';
 import { Link } from 'react-router-dom';
 import path from '../utils/path';
+
 const cx = classNames.bind(styles);
 const { IoIosPlay } = icons;
+
 const ZingChart = () => {
     const [data, setData] = useState([]);
     const { rank, chart } = useSelector((state) => state.app);
@@ -22,6 +24,7 @@ const ZingChart = () => {
         top: 0,
         left: 0,
     });
+
     const [selected, setSelected] = useState(null);
     const options = {
         reponsive: true,
@@ -112,7 +115,6 @@ const ZingChart = () => {
                     dataItem = [];
                 }
                 datasets.push({
-                    // label: `Dataset ${i + 1}`,
                     data: dataItem,
                     backgroundColor: colors[i],
                     borderColor: colors[i],
@@ -183,7 +185,6 @@ const ZingChart = () => {
                                 title={rank?.find((item) => item.encodeId === selected)?.title}
                                 artistsNames={rank?.find((item) => item.encodeId === selected)?.artistsNames}
                                 sid={rank?.find((item) => item.encodeId === selected)?.encodeId}
-                                // percent={Math.floor(rank?.map((item) => item.score * 100) / chart?.totalScore)}
                             />
                         </div>
                     </div>

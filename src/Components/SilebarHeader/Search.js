@@ -7,12 +7,15 @@ import * as actions from '../../Store/action';
 import { useNavigate, createSearchParams } from 'react-router-dom';
 import path from '../../utils/path';
 import { useDispatch } from 'react-redux';
+
 const cx = classNames.bind(styles);
 const { CiSearch, IoCloseCircle } = icons;
+
 const Search = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const [keyword, setKeyWord] = useState('');
+
     const handleSearch = (e) => {
         if (e.keyCode === 13) {
             dispatch(actions.search(keyword));

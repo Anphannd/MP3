@@ -8,17 +8,18 @@ import { useDispatch } from 'react-redux';
 import * as actions from '../Store/action';
 
 const cx = classNames.bind(styles);
+
 const BxhNewSong = () => {
     const { GrNext } = icons;
     const dispatch = useDispatch();
     const { hNewrelease } = useSelector((state) => state.app);
+
     useEffect(() => {
         const photoSile = document.getElementsByClassName(cx('bxhNewsong-item'));
-
         let currentIndex = 0;
+
         function showImages() {
             const photoSileArray = Array.from(photoSile);
-
             photoSileArray.forEach((item, index) => {
                 item.classList.remove('animate-slide-left');
                 if (index < currentIndex + 3 && index >= currentIndex) {

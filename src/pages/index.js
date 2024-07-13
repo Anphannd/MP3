@@ -11,3 +11,4 @@ export { default as SearchAll } from './SearchAll';
 export { default as SearchSong } from './SearchSong';
 export { default as Singer } from './Singer';
 export { default as SearchPlaylist } from './SearchPlaylist';
+export { default as Radio } from './Radio';

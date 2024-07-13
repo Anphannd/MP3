@@ -46,7 +46,6 @@
     flex: auto;
     cursor: pointer;
     width: 33.33333%;
-    // transition: transform 0.5s ease, opacity 0.5s ease;
     transition: transform 0.5s ease, filter 0.5s ease;
 }
 .active {
@@ -104,14 +103,3 @@
     right: 0;
     bottom: 0;
 }
-
-// @keyframes slide-left {
-//     0% {
-//         -webkit-transform: translateX(0px);
-//         transform: translateX(0px);
-//     }
-//     100% {
-//         -webkit-transform: translateX(-100px);
-//         transform: translateX(-100px);
-//     }
-// }

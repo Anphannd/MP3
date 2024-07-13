@@ -2,14 +2,16 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import classNames from 'classnames/bind';
 import styles from './SearchAll.module.scss';
-import { handleNumber } from '../../utils/fn';
-import { SongItem, ListItems, SectionChild, Artist } from '../../Components';
-import icons from '../../utils/Icons';
+import { handleNumber } from '../utils/fn';
+import { SongItem, ListItems, SectionChild, Artist } from '../Components';
+import icons from '../utils/Icons';
+
 const cx = classNames.bind(styles);
 const { GrNext } = icons;
+
 const SearchAll = () => {
     const { searchData } = useSelector((state) => state.music);
-    console.log(searchData);
+
     return (
         <div className={cx('searchAll')}>
             <div className={cx('searchAll-outstanding')}>

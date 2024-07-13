@@ -31,6 +31,7 @@ import { MdTimer } from 'react-icons/md';
 import { IoIosPersonAdd } from 'react-icons/io';
 import { IoCloseCircle } from 'react-icons/io5';
 import { FaStar } from 'react-icons/fa6';
+
 const icons = {
     RiCompassDiscoverLine,
     MdLibraryMusic,

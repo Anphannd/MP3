@@ -6,8 +6,10 @@ import { useSelector } from 'react-redux';
 import { SongItem } from '../../Components';
 import { getPlaylists } from '../../Apis';
 import { Scrollbars } from 'react-custom-scrollbars';
+
 const cx = classNames.bind(styles);
 const { IoEllipsisHorizontal, MdTimer } = icons;
+
 const SilebarRight = () => {
     const { curSongData, curAlbumId, isPlaying, recenSong, curSongId } = useSelector((state) => state.music);
     // console.log(curSongData);
@@ -21,12 +23,15 @@ const SilebarRight = () => {
     useEffect(() => {
         curAlbumId && fetchDetailPlaylist();
     }, []);
+
     useEffect(() => {
         if (curAlbumId && isPlaying) fetchDetailPlaylist();
     }, [curAlbumId, isPlaying]);
+
     useEffect(() => {
         isPlaying && setisActive(false);
     }, [curSongId, isPlaying]);
+
     return (
         <div className={cx('silebarRight-list')}>
             <div className={cx('silebarRight-header')}>

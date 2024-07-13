@@ -1,25 +1,26 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom'; // lấy params trên url
-import * as apis from '../../Apis';
+import * as apis from '../Apis';
 import classNames from 'classnames/bind';
 import styles from './Playlist.module.scss';
 import moment from 'moment';
-import icons from '../../utils/Icons';
-import { ListSong, AudioSpiner } from '../../Components';
+import icons from '../utils/Icons';
+import { ListSong, AudioSpiner } from '../Components';
 import { Scrollbars } from 'react-custom-scrollbars';
 import { useDispatch, useSelector } from 'react-redux';
-import * as actions from '../../Store/action';
+import * as actions from '../Store/action';
 
 const { IoPlay, FaRegHeart, IoEllipsisHorizontal } = icons;
-
 const cx = classNames.bind(styles);
+
 const Playlist = () => {
-    const { title, pid } = useParams();
+    const { pid } = useParams();
     // console.log({ title, pid });
     const { isPlaying } = useSelector((state) => state.music);
     const [listData, setListData] = useState([]);
     const dispatch = useDispatch();
+
     useEffect(() => {
         dispatch(actions.setCurAlbumId(pid));
         const fetchDetailPlaylist = async () => {

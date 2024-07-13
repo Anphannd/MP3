@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --text-color: #ffffff;
     --background-text: #393243;
@@ -22,11 +23,11 @@
     --layout-background: #291547cc;
     --secondary-text-color: rgba(254, 255, 255, 0.6);
 }
+
 html {
     font-size: 62.5%;
 }
-body {
-}
+
 ::-webkit-scrollbar {
     display: none;
 }

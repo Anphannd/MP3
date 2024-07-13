@@ -5,8 +5,10 @@ import classNames from 'classnames/bind';
 import styles from './NewRelease.module.scss';
 import { useSelector } from 'react-redux';
 import { SongItem } from './';
+
 const cx = classNames.bind(styles);
 const { GrNext } = icons;
+
 const NewRelease = () => {
     const { newrelease } = useSelector((state) => state.app);
     console.log(newrelease);

@@ -6,8 +6,10 @@ import { AudioSpiner } from './';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import * as actions from '../Store/action';
+
 const { IoPlay, FaRegHeart, IoEllipsisHorizontal, FaStar } = icons;
 const cx = classNames.bind(styles);
+
 const SectionChild = ({
     title,
     link,

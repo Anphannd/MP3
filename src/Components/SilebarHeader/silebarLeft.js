@@ -6,7 +6,9 @@ import { NavLink } from 'react-router-dom';
 import { Menu } from '../../utils/MenuSilebar';
 import { useNavigate } from 'react-router-dom'; // chuyển route
 import path from '../../utils/path';
+
 const cx = classNames.bind(styles);
+
 const SilebarLeft = () => {
     const navigate = useNavigate();
     return (

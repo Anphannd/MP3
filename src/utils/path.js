@@ -14,5 +14,6 @@ const path = {
     PROFILER__SINGER: ':singer',
     PROFILER_ARTIST_SINGER: 'nghe-si/:singer',
     PLAYLIST_SEARCH: 'playlist',
+    RADIO: 'radio',
 };
 export default path;

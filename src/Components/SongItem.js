@@ -5,6 +5,7 @@ import moment from 'moment';
 import 'moment/locale/vi';
 import { useDispatch } from 'react-redux';
 import * as actions from '../Store/action';
+
 const cx = classNames.bind(styles);
 const SongItem = ({ thumbnail, title, artistsNames, releaseDate, sid, oder, percent, imgSm, imgxl }) => {
     const dispatch = useDispatch();

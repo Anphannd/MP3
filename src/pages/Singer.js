@@ -1,16 +1,19 @@
 import React, { memo, useEffect, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom';
-import { getArtist } from '../../Apis/';
+import { getArtist } from '../Apis';
 import classNames from 'classnames/bind';
 import styles from './Singer.module.scss';
-import icons from '../../utils/Icons';
-import { ListItems, Section, Artist } from '../../Components';
+import icons from '../utils/Icons';
+import { ListItems, Section, Artist } from '../Components';
+
 const { IoIosPersonAdd, IoPlay, GrNext, FaStar } = icons;
 const cx = classNames.bind(styles);
+
 const Singer = () => {
     const { singer } = useParams();
     const [artistData, setArtistData] = useState(null);
     const singerRef = useRef();
+
     useEffect(() => {
         const fetch = async () => {
             const res = await getArtist(singer);
@@ -21,9 +24,11 @@ const Singer = () => {
         };
         singer && fetch();
     }, [singer]);
+
     useEffect(() => {
         singerRef?.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, [singer]);
+
     return (
         <div className={cx('singer')}>
             <div ref={singerRef} className={cx('singer-header')}>

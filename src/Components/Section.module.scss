@@ -54,9 +54,7 @@
     border-radius: 8px;
     position: relative;
 }
-// .section-image:hover ~ .iconPlay-btn {
-//     display: flex;
-// }
+
 .section-image {
     height: auto;
 
@@ -95,7 +93,6 @@
     }
 }
 .iconPlay-btn {
-    // position: absolute;
     height: 45px;
     width: 45px;
     border: 1px solid var(--text-color);
@@ -103,10 +100,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // display: none;
 }
 .iconAudio-btn {
-    // position: absolute;
     height: 45px;
     width: 45px;
     border: 1px solid var(--text-color);

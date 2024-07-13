@@ -4,9 +4,10 @@ import classNames from 'classnames/bind';
 import styles from './Search.module.scss';
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { SearchMenu } from '../../utils/MenuSilebar';
+import { SearchMenu } from '../utils/MenuSilebar';
 
 const cx = classNames.bind(styles);
+
 const Search = () => {
     const { keyword } = useSelector((state) => state.music);
     return (

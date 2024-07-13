@@ -5,10 +5,9 @@ import classNames from 'classnames/bind';
 import styles from './Section.module.scss';
 import { SectionChild } from './';
 
-import { useDispatch, useSelector } from 'react-redux';
-
 const cx = classNames.bind(styles);
 const { GrNext } = icons;
+
 const Section = ({ data }) => {
     // console.log(data);
     return (

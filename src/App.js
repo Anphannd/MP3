@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import {
     Home,
     Login,
@@ -13,12 +13,14 @@ import {
     SearchSong,
     Singer,
     SearchPlaylist,
-} from './Container/public';
+    Radio,
+} from './pages';
 import { Routes, Route } from 'react-router-dom';
 import * as actions from './Store/action';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import path from './utils/path';
+
 function App() {
     const dispatch = useDispatch();
     useEffect(() => {
@@ -33,6 +35,7 @@ function App() {
                         <Route path={path.HOME} element={<Home />} />
                         <Route path={path.LOGIN} element={<Login />} />
                         <Route path={path.MY_MUSIC} element={<Personal />} />
+                        <Route path={path.RADIO} element={<Radio />} />
                         <Route path={path.PLAYLIST_TITLE_PID} element={<Playlist />} />
                         <Route path={path.ALBUM_TITLE_PID} element={<Playlist />} />
                         <Route path={path.WEEKCHACRT_TITLE_PID} element={<WeekChart />} />

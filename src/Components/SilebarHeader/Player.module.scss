@@ -78,9 +78,11 @@
     font-size: 1.2rem;
     color: var(--text-color);
 }
+
 .time-start {
     opacity: 0.6;
 }
+
 .progress {
     -webkit-appearance: none;
     background: linear-gradient(to right, #fff 0%, #fff var(--progress), #5a5560 var(--progress), #5a5560 100%);
@@ -96,6 +98,7 @@
         cursor: pointer;
     }
 }
+
 .progress::-webkit-slider-thumb {
     /* css con tro */
 
@@ -112,6 +115,7 @@
         opacity: 1;
     }
 }
+
 .progress-volume {
     width: 70px;
     background: linear-gradient(to right, #fff 0%, #fff var(--volume), #5a5560 var(--volume), #5a5560 100%);
@@ -126,17 +130,20 @@
     align-items: center;
     justify-content: end;
 }
+
 .tools-icons {
     display: flex;
     color: var(--text-color);
     align-items: center;
 }
+
 .border-right {
     height: 33px;
     width: 1px;
     background-color: #ffffff1a;
     margin: 0 20px;
 }
+
 .listSong-btn {
     display: flex;
     align-items: center;

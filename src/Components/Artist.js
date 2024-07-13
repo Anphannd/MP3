@@ -4,8 +4,10 @@ import classNames from 'classnames/bind';
 import styles from './Artist.module.scss';
 import icons from '../utils/Icons';
 import { Link } from 'react-router-dom';
+
 const { IoIosPersonAdd } = icons;
 const cx = classNames.bind(styles);
+
 const Artist = ({ name, thumbnail, id, totalFollow, link }) => {
     return (
         <div className={cx('Artist')}>

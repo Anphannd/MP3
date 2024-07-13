@@ -1,6 +1,4 @@
-import { data } from 'autoprefixer';
 import actionType from '../action/actionType';
-import { search } from '../action/music';
 
 const initstate = {
     curSongId: null,
@@ -16,7 +14,6 @@ const initstate = {
 const musicReducer = (state = initstate, action) => {
     switch (action.type) {
         case actionType.SET_CUR_SONG_ID:
-            // console.log(state);
             return {
                 ...state,
                 curSongId: action.sid || null,
